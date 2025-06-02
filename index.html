@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpyStaff - Employee Tracking System</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/SpyStaffLogo.svg" type="image/png" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <nav>
+          <a href="#home" class="logo">
+            <!-- <i class="fas fa-shield-alt"></i> -->
+             <img src="images/SpyStaffLogo.svg" alt="SpyStaff Logo" height="50" width="50"/>
+            SpyStaff
+          </a>
+          <div class="nav-links" id="navLinks">
+            <a href="#features" class="nav-link">Features</a>
+            <!-- <a href="#benefits" class="nav-link">Benefits</a> -->
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <!-- <a href="#use-cases" class="nav-link">Use Cases</a> -->
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <!-- <a href="#testimonials" class="nav-link">Testimonials</a> -->
+            <a href="#contact" class="nav-link">Contact</a>
+            <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+              <i class="fas fa-sun" style="display: inline"></i>
+              <i class="fas fa-moon" style="display: none"></i>
+            </button>
+            <a href="#signup" class="cta-button">Get Started</a>
+          </div>
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="fade-in">Boost Productivity with SpyStaff</h1>
+          <p class="fade-in" style="transition-delay: 0.2s">
+            The ultimate employee tracking system to monitor projects, manage
+            payments, and optimize workforce efficiency with real-time insights.
+          </p>
+          <div class="hero-cta fade-in" style="transition-delay: 0.4s">
+            <a href="#signup" class="cta-button">Try for Free</a>
+            <a href="#features" class="cta-button outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="light" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">
+            Powerful Features for Your Business
+          </h2>
+          <p class="section-subtitle fade-in">
+            Discover how SpyStaff can transform your workforce management with
+            these powerful tools.
+          </p>
+        </div>
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card fade-in-left">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="feature-title">Real-Time Tracking</h3>
+            <p class="feature-description">
+              Monitor employee activity with live session tracking, screenshot
+              capture, and popup code responses.
+            </p>
+          </div>
+          <!-- Feature 2 -->
+          <div class="feature-card fade-in" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <h3 class="feature-title">Project Management</h3>
+            <p class="feature-description">
+              Create, assign, and track projects with progress charts and budget
+              alerts.
+            </p>
+          </div>
+          <!-- Feature 3 -->
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.4s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <h3 class="feature-title">Flexible Billing</h3>
+            <p class="feature-description">
+              Pay per minute or per storage, with customizable invoices and
+              secure payments.
+            </p>
+          </div>
+          <!-- Feature 4 -->
+          <div class="feature-card fade-in-left" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h3 class="feature-title">Smart Notifications</h3>
+            <p class="feature-description">
+              Get instant alerts for important events, milestones, and potential
+              issues.
+            </p>
+          </div>
+          <!-- Feature 5 -->
+          <div class="feature-card fade-in" style="transition-delay: 0.4s">
+            <div class="feature-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3 class="feature-title">Detailed Reports</h3>
+            <p class="feature-description">
+              Generate comprehensive reports on productivity, time usage, and
+              project progress.
+            </p>
+          </div>
+          <!-- Feature 6 -->
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.6s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-lock"></i>
+            </div>
+            <h3 class="feature-title">Secure Access</h3>
+            <p class="feature-description">
+              Control who can view sensitive information with role-based
+              permissions.
+            </p>
+          </div>
+          <!-- Feature 7 -->
+          <div class="feature-card fade-in-left">
+            <div class="feature-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3 class="feature-title">Apps and Website Usage</h3>
+            <p class="feature-description">
+              Track which apps and websites your employees are using
+              individually, as a team, or on a company level.
+            </p>
+          </div>
+          <!-- Feature 8 -->
+          <div class="feature-card fade-in" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <h3 class="feature-title">Screenshots</h3>
+            <p class="feature-description">
+              Get random screenshots, or those triggered by employees’
+              suspicious or malicious activities.
+            </p>
+          </div>
+          <!-- Feature 9 -->
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.4s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-history"></i>
+            </div>
+            <h3 class="feature-title">Activities Tracking</h3>
+            <p class="feature-description">
+              Look into your employees’ activity logs including active and idle
+              time, or review and approve manual logs.
+            </p>
+          </div>
+          <!-- Feature 10 -->
+          <div class="feature-card fade-in-left" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-user-secret"></i>
+            </div>
+            <h3 class="feature-title">Stealth Mode</h3>
+            <p class="feature-description">
+              Prevent malicious behavior and identify suspicious activity to
+              protect your team’s data.
+            </p>
+          </div>
+          <!-- Feature 11 -->
+          <div class="feature-card fade-in" style="transition-delay: 0.4s">
+            <div class="feature-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3 class="feature-title">Real-Time Monitoring</h3>
+            <p class="feature-description">
+              See what your employees are up to anytime with live monitoring
+              capabilities.
+            </p>
+          </div>
+          <!-- Feature 12 -->
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.6s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="feature-title">Manual Time Entries</h3>
+            <p class="feature-description">
+              Allow workers to add manual time entries for accurate time
+              tracking.
+            </p>
+          </div>
+          <!-- Feature 13 -->
+          <div class="feature-card fade-in-left">
+            <div class="feature-icon">
+              <i class="fas fa-tags"></i>
+            </div>
+            <h3 class="feature-title">Productivity Labeling</h3>
+            <p class="feature-description">
+              Label which apps and websites are productive to enhance
+              performance analysis.
+            </p>
+          </div>
+          <!-- Feature 14 -->
+          <div class="feature-card fade-in" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-archive"></i>
+            </div>
+            <h3 class="feature-title">Timekeeping</h3>
+            <p class="feature-description">
+              Access historical data from up to two years ago for comprehensive
+              analysis.
+            </p>
+          </div>
+          <!-- Feature 15 -->
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.4s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-user-check"></i>
+            </div>
+            <h3 class="feature-title">Time and Attendance</h3>
+            <p class="feature-description">
+              Track employees’ attendance automatically for streamlined
+              operations.
+            </p>
+          </div>
+          <!-- Feature 16 -->
+          <div class="feature-card fade-in-left" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h3 class="feature-title">Productivity Tracking</h3>
+            <p class="feature-description">
+              Analyze productivity through detailed reports to optimize
+              workforce efficiency.
+            </p>
+          </div>
+          <!-- Feature 17 -->
+          <div class="feature-card fade-in" style="transition-delay: 0.4s">
+            <div class="feature-icon">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <h3 class="feature-title">Reports</h3>
+            <p class="feature-description">
+              Receive reports via email on a daily, weekly, or monthly basis.
+            </p>
+          </div>
+          <!-- Feature 18 -->
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.6s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <h3 class="feature-title">Manual Screenshots</h3>
+            <p class="feature-description">
+              Trigger screenshots manually for specific monitoring needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="dark" id="benefits">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Why Choose SpyStaff?</h2>
+          <p class="section-subtitle fade-in">
+            Discover the key benefits that make SpyStaff the preferred choice
+            for businesses worldwide.
+          </p>
+        </div>
+        <div class="benefits-container">
+          <div class="benefit-item fade-in">
+            <div class="benefit-icon">
+              <i class="fas fa-tachometer-alt"></i>
+            </div>
+            <h3 class="benefit-title">Increased Productivity</h3>
+            <p class="benefit-description">
+              Studies show that monitored employees are 22% more productive.
+              SpyStaff helps teams stay focused and accountable.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.2s">
+            <div class="benefit-icon">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <h3 class="benefit-title">Cost Efficiency</h3>
+            <p class="benefit-description">
+              Reduce overhead costs by optimizing workforce allocation and
+              eliminating time wastage.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.4s">
+            <div class="benefit-icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3 class="benefit-title">Data-Driven Decisions</h3>
+            <p class="benefit-description">
+              Make informed business decisions based on accurate performance
+              metrics and analytics.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.2s">
+            <div class="benefit-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3 class="benefit-title">Remote Work Management</h3>
+            <p class="benefit-description">
+              Effectively manage distributed teams across different locations
+              and time zones.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.4s">
+            <div class="benefit-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="benefit-title">Enhanced Security</h3>
+            <p class="benefit-description">
+              Protect sensitive company data and ensure compliance with security
+              protocols.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.6s">
+            <div class="benefit-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="benefit-title">Improved Team Collaboration</h3>
+            <p class="benefit-description">
+              Foster better communication and teamwork through transparent
+              project tracking.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.2s">
+            <div class="benefit-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h3 class="benefit-title">Instant Data Syncing</h3>
+            <p class="benefit-description">
+              Get real-time data syncing for effective productivity monitoring
+              across teams.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.4s">
+            <div class="benefit-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="benefit-title">Productivity Monitoring</h3>
+            <p class="benefit-description">
+              Access detailed productivity reports outlining hours worked, app
+              usage, and performance trends.
+            </p>
+          </div>
+          <div class="benefit-item fade-in" style="transition-delay: 0.6s">
+            <div class="benefit-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <h3 class="benefit-title">Custom Screenshots</h3>
+            <p class="benefit-description">
+              Set up screenshots at custom intervals to ensure employees focus
+              on work-related tasks.
+            </p>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem">
+          <a href="#contact" class="cta-button fade-in">Book a Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="container">
+        <h2 class="section-title fade-in" style="color: white">
+          SpyStaff by the Numbers
+        </h2>
+        <p
+          class="section-subtitle fade-in"
+          style="color: rgba(255, 255, 255, 0.8)"
+        >
+          Join thousands of businesses that trust SpyStaff for their workforce
+          management needs.
+        </p>
+        <div class="stats-container">
+          <div class="stat-item fade-in">
+            <div class="stat-number" id="stat1">5,000+</div>
+            <div class="stat-label" style="color: rgba(255, 255, 255, 0.8)">
+              Active Companies
+            </div>
+          </div>
+          <div class="stat-item fade-in" style="transition-delay: 0.2s">
+            <div class="stat-number" id="stat2">25,000+</div>
+            <div class="stat-label" style="color: rgba(255, 255, 255, 0.8)">
+              Employees Tracked
+            </div>
+          </div>
+          <div class="stat-item fade-in" style="transition-delay: 0.4s">
+            <div class="stat-number" id="stat3">98%</div>
+            <div class="stat-label" style="color: rgba(255, 255, 255, 0.8)">
+              Customer Satisfaction
+            </div>
+          </div>
+          <div class="stat-item fade-in" style="transition-delay: 0.6s">
+            <div class="stat-number" id="stat4">35%</div>
+            <div class="stat-label" style="color: rgba(255, 255, 255, 0.8)">
+              Average Productivity Increase
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="light" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">How SpyStaff Works</h2>
+          <p class="section-subtitle fade-in">
+            Get started with SpyStaff in three simple steps.
+          </p>
+        </div>
+        <div class="steps-container">
+          <div class="step-connector"></div>
+          <div class="step fade-in">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Set Up Your Account</h3>
+            <p class="step-description">
+              Register your company, add payment details, and upload employment
+              contracts.
+            </p>
+          </div>
+          <div class="step fade-in" style="transition-delay: 0.2s">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Invite Employees</h3>
+            <p class="step-description">
+              Send secure invitations for employees to create profiles and join
+              projects.
+            </p>
+          </div>
+          <div class="step fade-in" style="transition-delay: 0.4s">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Track & Analyze</h3>
+            <p class="step-description">
+              Monitor activity, generate reports, and optimize performance with
+              real-time data.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="dark" id="use-cases">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">SpyStaff in Action</h2>
+          <p class="section-subtitle fade-in">
+            Discover how different industries leverage SpyStaff to optimize
+            their operations.
+          </p>
+        </div>
+        <div class="use-cases-container">
+          <div class="use-case-card fade-in-left">
+            <div
+              class="use-case-image"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+              "
+            ></div>
+            <div class="use-case-content">
+              <h3 class="use-case-title">Software Development</h3>
+              <p class="use-case-description">
+                Track developer productivity, monitor code quality, and ensure
+                project milestones are met on time.
+              </p>
+              agenda
+              <a href="#" class="blog-link"
+                >Learn more <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="use-case-card fade-in" style="transition-delay: 0.2s">
+            <div
+              class="use-case-image"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+              "
+            ></div>
+            <div class="use-case-content">
+              <h3 class="use-case-title">Digital Marketing</h3>
+              <p class="use-case-description">
+                Monitor campaign performance, track creative work hours, and
+                optimize resource allocation.
+              </p>
+              <a href="#" class="blog-link"
+                >Learn more <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div
+            class="use-case-card fade-in-right"
+            style="transition-delay: 0.4s"
+          >
+            <div
+              class="use-case-image"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+              "
+            ></div>
+            <div class="use-case-content">
+              <h3 class="use-case-title">Customer Support</h3>
+              <p class="use-case-description">
+                Track response times, monitor call quality, and ensure
+                consistent customer service standards.
+              </p>
+              <a href="#" class="blog-link"
+                >Learn more <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Productivity Features Section -->
+    <section class="light" id="productivity-features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">
+            Get the Most out of Your Employees’ Time
+          </h2>
+          <p class="section-subtitle fade-in">
+            Discover exactly what your employees are up to every minute of the
+            day with all-seeing software for workplace monitoring and complete
+            behavior analytics.
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card fade-in-left">
+            <div class="feature-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3 class="feature-title">Company Computers</h3>
+            <p class="feature-description">
+              Suitable for office teams using company-owned computers. SpyStaff
+              starts automatically, with options to track non-stop, during
+              specific hours, or on specific networks.
+            </p>
+          </div>
+          <div class="feature-card fade-in" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3 class="feature-title">Personal Computers</h3>
+            <p class="feature-description">
+              Ideal for remote teams, allowing employees to control tracking
+              with clock in/out buttons for flexible monitoring.
+            </p>
+          </div>
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.4s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3 class="feature-title">Visible Mode</h3>
+            <p class="feature-description">
+              Promotes transparency by notifying employees when monitoring is
+              active, ensuring trust and accountability.
+            </p>
+          </div>
+          <div class="feature-card fade-in-left" style="transition-delay: 0.2s">
+            <div class="feature-icon">
+              <i class="fas fa-user-secret"></i>
+            </div>
+            <h3 class="feature-title">Stealth Mode</h3>
+            <p class="feature-description">
+              Detects suspicious activities discreetly to protect team data
+              without employee awareness.
+            </p>
+          </div>
+
+          <div class="feature-card fade-in" style="transition-delay: 0.4s">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="feature-title">Real-Time Alerts</h3>
+            <p class="feature-description">
+              Instant notifications on policy violations or anomalies to enable
+              swift action.
+            </p>
+          </div>
+
+          <div
+            class="feature-card fade-in-right"
+            style="transition-delay: 0.2s"
+          >
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="feature-title">Activity Insights</h3>
+            <p class="feature-description">
+              Provides detailed analytics on user behavior to help improve
+              security and productivity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="light" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Simple, Transparent Pricing</h2>
+          <p class="section-subtitle fade-in">
+            Choose the plan that works best for your business needs.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <!-- Pay Per Minute -->
+          <div class="pricing-card fade-in-left">
+            <h3 class="pricing-title">Pay Per Minute</h3>
+            <p class="pricing-description">
+              Unlimited projects and employees. Only pay for active tracking
+              time.
+            </p>
+            <div class="pricing-price">Custom Rate</div>
+            <ul
+              class="footer-links"
+              style="margin-bottom: 2rem; text-align: left"
+            >
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                Real-time activity monitoring
+              </li>
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                Screenshot capture
+              </li>
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                Project time tracking
+              </li>
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                Basic reporting
+              </li>
+            </ul>
+            <a href="#signup" class="cta-button">Get Started</a>
+          </div>
+          <!-- Pay Per Storage -->
+          <div
+            class="pricing-card fade-in-right"
+            style="transition-delay: 0.2s"
+          >
+            <h3 class="pricing-title">Pay Per Storage</h3>
+            <p class="pricing-description">
+              Store screenshots beyond the free period with flexible archiving
+              options.
+            </p>
+            <div class="pricing-price">Custom Rate</div>
+            <ul
+              class="footer-links"
+              style="margin-bottom: 2rem; text-align: left"
+            >
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                All Pay Per Minute features
+              </li>
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                Extended data retention
+              </li>
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                Advanced analytics
+              </li>
+              <li>
+                <i
+                  class="fas fa-check"
+                  style="color: var(--primary); margin-right: 0.5rem"
+                ></i>
+                API access
+              </li>
+            </ul>
+            <a href="#signup" class="cta-button">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="dark" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">What Our Users Say</h2>
+          <p class="section-subtitle fade-in">
+            Don't just take our word for it. Here's what our customers have to
+            say.
+          </p>
+        </div>
+        <div class="testimonials-container">
+          <div class="testimonial-card fade-in-left">
+            <div class="testimonial-text">
+              SpyStaff transformed how we manage our remote team. The real-time
+              insights are invaluable!
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">
+                <img
+                  src="https://randomuser.me/api/portraits/women/65.jpg"
+                  alt="Jane Doe"
+                />
+              </div>
+              <div class="testimonial-info">
+                <h4>Jane Doe</h4>
+                <p>CEO, TechCorp</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in" style="transition-delay: 0.2s">
+            <div class="testimonial-text">
+              The project tracking and billing features saved us hours of manual
+              work. Highly recommended!
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="John Smith"
+                />
+              </div>
+              <div class="testimonial-info">
+                <h4>John Smith</h4>
+                <p>Project Manager, DevHub</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="testimonial-card fade-in-right"
+            style="transition-delay: 0.4s"
+          >
+            <div class="testimonial-text">
+              Easy to set up and use. Our productivity has never been higher!
+              The support team is also fantastic.
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  alt="Emily Brown"
+                />
+              </div>
+              <div class="testimonial-info">
+                <h4>Emily Brown</h4>
+                <p>HR Manager, CreativeInc</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="light" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Frequently Asked Questions</h2>
+          <p class="section-subtitle fade-in">
+            Find answers to common questions about SpyStaff.
+          </p>
+        </div>
+        <div class="faq-container">
+          <div class="faq-item fade-in">
+            <div class="faq-question">
+              Is SpyStaff legal to use?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Yes, SpyStaff is legal to use in most jurisdictions when used
+              properly. However, it's important to inform your employees about
+              monitoring and follow local laws regarding workplace surveillance.
+              We recommend consulting with legal counsel to ensure compliance
+              with regulations in your region.
+            </div>
+          </div>
+          <div class="faq-item fade-in" style="transition-delay: 0.1s">
+            <div class="faq-question">
+              How does the pricing work?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              SpyStaff offers flexible pricing options. You can choose to pay
+              per minute of active tracking or pay for storage of screenshots
+              and data. Custom pricing is available based on your specific needs
+              and team size. Contact our sales team for a personalized quote.
+            </div>
+          </div>
+          <div class="faq-item fade-in" style="transition-delay: 0.2s">
+            <div class="faq-question">
+              Can employees see that they are being monitored?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Yes, SpyStaff is designed to be transparent. Employees are
+              notified when monitoring is active, and they can see when
+              screenshots are taken. This transparency helps build trust while
+              still providing the accountability benefits of monitoring.
+            </div>
+          </div>
+          <div class="faq-item fade-in" style="transition-delay: 0.3s">
+            <div class="faq-question">
+              What kind of reports can I generate?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              SpyStaff offers a wide range of reporting options, including
+              productivity reports, time usage breakdowns, project progress
+              tracking, and cost analysis. Reports can be customized to focus on
+              specific teams, projects, or time periods, and can be exported in
+              various formats.
+            </div>
+          </div>
+          <div class="faq-item fade-in" style="transition-delay: 0.4s">
+            <div class="faq-question">
+              Is my data secure with SpyStaff?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Absolutely. SpyStaff uses enterprise-grade encryption to protect
+              your data both in transit and at rest. We follow industry best
+              practices for security and regularly undergo security audits. Your
+              data is stored in secure, redundant data centers with strict
+              access controls.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="dark" id="team">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Meet Our Team</h2>
+          <p class="section-subtitle fade-in">
+            The talented professionals behind SpyStaff's success and innovation.
+          </p>
+        </div>
+        <div class="team-container">
+          <div class="team-member fade-in-left">
+            <div
+              class="team-photo"
+              style="
+                background-image: url('https://randomuser.me/api/portraits/men/75.jpg');
+              "
+            >
+              <div class="team-social">
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Michael Johnson</h3>
+              <p class="team-position">CEO & Founder</p>
+              <p class="team-bio">
+                With over 15 years of experience in workforce management,
+                Michael leads our vision for the future of employee tracking.
+              </p>
+            </div>
+          </div>
+          <div class="team-member fade-in" style="transition-delay: 0.2s">
+            <div
+              class="team-photo"
+              style="
+                background-image: url('https://randomuser.me/api/portraits/women/63.jpg');
+              "
+            >
+              <div class="team-social">
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Sarah Williams</h3>
+              <p class="team-position">CTO</p>
+              <p class="team-bio">
+                Sarah oversees our technical strategy and ensures SpyStaff
+                remains at the cutting edge of monitoring technology.
+              </p>
+            </div>
+          </div>
+          <div class="team-member fade-in-right" style="transition-delay: 0.4s">
+            <div
+              class="team-photo"
+              style="
+                background-image: url('https://randomuser.me/api/portraits/men/32.jpg');
+              "
+            >
+              <div class="team-social">
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-medium-m"></i
+                ></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">David Chen</h3>
+              <p class="team-position">Head of Product</p>
+              <p class="team-bio">
+                David leads our product development, focusing on creating
+                intuitive and powerful features for our users.
+              </p>
+            </div>
+          </div>
+          <div class="team-member fade-in-left" style="transition-delay: 0.6s">
+            <div
+              class="team-photo"
+              style="
+                background-image: url('https://randomuser.me/api/portraits/women/45.jpg');
+              "
+            >
+              <div class="team-social">
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="team-social-link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Lisa Patel</h3>
+              <p class="team-position">Head of Customer Success</p>
+              <p class="team-bio">
+                Lisa ensures our clients achieve maximum value from SpyStaff
+                with dedicated support and training.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="light" id="blog">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Latest Insights</h2>
+          <p class="section-subtitle fade-in">
+            Stay updated with tips, trends, and best practices for workforce
+            management.
+          </p>
+        </div>
+        <div class="blog-container">
+          <div class="blog-card fade-in-left">
+            <div
+              class="blog-image"
+              style="
+                background-image: url('https://th.bing.com/th/id/R.c5f8d0c9e4591ea8c7d8e37315dc33ad?rik=BXFxCGdYuqRCgQ&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1606770347238-77fcfd29906c%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8Mnx8em9vbSUyMG1lZXRpbmd8fDB8fHx8MTYzMDg5OTc5Ng%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=ZVHmEHQe2gpRz7%2fTZxnIEPyfrkY%2fBd4YA6QIVPA39uU%3d&risl=&pid=ImgRaw&r=0');
+              "
+            ></div>
+            <div class="blog-content">
+              <div class="blog-date">October 20, 2025</div>
+              <h3 class="blog-title">
+                5 Ways to Boost Remote Team Productivity
+              </h3>
+              <p class="blog-excerpt">
+                Discover proven strategies to keep your remote workforce engaged
+                and efficient using SpyStaff.
+              </p>
+              <a href="#" class="blog-link"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="blog-card fade-in" style="transition-delay: 0.2s">
+            <div
+              class="blog-image"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+              "
+            ></div>
+            <div class="blog-content">
+              <div class="blog-date">October 15, 2025</div>
+              <h3 class="blog-title">The Future of Employee Monitoring</h3>
+              <p class="blog-excerpt">
+                Explore how AI and analytics are shaping the next generation of
+                workforce management tools.
+              </p>
+              <a href="#" class="blog-link"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="blog-card fade-in-right" style="transition-delay: 0.4s">
+            <div
+              class="blog-image"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+              "
+            ></div>
+            <div class="blog-content">
+              <div class="blog-date">October 10, 2025</div>
+              <h3 class="blog-title">How to Ensure Compliance in Monitoring</h3>
+              <p class="blog-excerpt">
+                Learn best practices for implementing employee tracking while
+                respecting privacy laws.
+              </p>
+              <a href="#" class="blog-link"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="dark" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Get in Touch</h2>
+          <p class="section-subtitle fade-in">
+            Have questions or need a demo? We're here to help!
+          </p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info fade-in-left">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Our Office</h4>
+                <p>
+                  123 Productivity Lane, Suite 100<br />San Francisco, CA 94105
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+1 (800) 555-1234</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>support@spystaff.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form fade-in-right">
+            <form>
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="John Doe"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="john@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  placeholder="How can we help you?"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="form-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="light" id="partners">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Trusted by Industry Leaders</h2>
+          <p class="section-subtitle fade-in">
+            We partner with top companies to deliver exceptional workforce
+            solutions.
+          </p>
+        </div>
+        <div class="partners-container">
+          <div class="partner-logo fade-in">
+            <img
+              src="https://via.placeholder.com/150x80.png?text=Partner+1"
+              alt="Partner 1"
+            />
+          </div>
+          <div class="partner-logo fade-in" style="transition-delay: 0.2s">
+            <img
+              src="https://via.placeholder.com/150x80.png?text=Partner+2"
+              alt="Partner 2"
+            />
+          </div>
+          <div class="partner-logo fade-in" style="transition-delay: 0.4s">
+            <img
+              src="https://via.placeholder.com/150x80.png?text=Partner+3"
+              alt="Partner 3"
+            />
+          </div>
+          <div class="partner-logo fade-in" style="transition-delay: 0.6s">
+            <img
+              src="https://via.placeholder.com/150x80.png?text=Partner+4"
+              alt="Partner 4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="signup">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title fade-in">Ready to Transform Your Workforce?</h2>
+          <p class="cta-description fade-in">
+            Join thousands of businesses optimizing their teams with SpyStaff.
+            Start your free trial today!
+          </p>
+          <a
+            href="#signup"
+            class="cta-button fade-in"
+            style="transition-delay: 0.2s"
+            >Get Started Now</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3>About SpyStaff</h3>
+            <p>
+              SpyStaff is the leading employee tracking system designed to boost
+              productivity and streamline workforce management.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="#features"
+                  ><i class="fas fa-chevron-right"></i> Features</a
+                >
+              </li>
+              <li>
+                <a href="#benefits"
+                  ><i class="fas fa-chevron-right"></i> Benefits</a
+                >
+              </li>
+              <li>
+                <a href="#pricing"
+                  ><i class="fas fa-chevron-right"></i> Pricing</a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  ><i class="fas fa-chevron-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Resources</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="#blog"><i class="fas fa-chevron-right"></i> Blog</a>
+              </li>
+              <li>
+                <a href="#faq"><i class="fas fa-chevron-right"></i> FAQ</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Support</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> support@spystaff.com</p>
+            <p><i class="fas fa-phone-alt"></i> +1 (800) 555-1234</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Productivity Lane, San
+              Francisco, CA
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 SpyStaff. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
