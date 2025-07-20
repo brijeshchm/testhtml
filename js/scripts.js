@@ -40,7 +40,6 @@ const observer = new IntersectionObserver((entries, observer) => {
 fadeInElements.forEach((element) => {
     observer.observe(element);
 });
-
 // FAQ Accordion
 // const faqItems = document.querySelectorAll(".faq-item");
 
